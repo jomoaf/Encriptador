@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador Moroni Almazán</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+       
+       <header>
+  
+        </header>
+
+        <main>
+
+            <section class="areaIzq">
+                <textarea onkeyup="validaremos(this,'special')" type="text" id="entrada" rows="6" cols="40" placeholder="Escribe tu texto" autofocus></textarea>
+                <h6>No usar letras mayúsculas ni caracteres especiales.<h6>
+                <div class="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="areaDer">
+                <textarea type="text" id="salida" class="salida" rows="8" cols="20"></textarea>
+                <div class="botones">
+                    <button id="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p class="txtfoot">Made by Moroni Almazán</p>
+        </footer>
+
+        <script src="js/principal.js"></script>
+
+    </body>
+    
+</html>

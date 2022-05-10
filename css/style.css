@@ -1,0 +1,141 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: rgba(238, 16, 16, 0.281);
+}
+
+main{
+    display: flex;
+    margin-bottom: 1%;
+
+}
+
+.areaIzq{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.areaDer{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#entrada{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: red;
+    color: rgb(173, 80, 80);
+}
+
+.salida{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    margin-left: 25px;
+    margin-right: 10%;
+    background-image: url(mono.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border-color: red;
+    color: rgb(173, 80, 80);
+}
+
+.out{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 2s%;
+    margin-left: 25px;
+    margin-right: 10%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: red;
+}
+
+h6{
+    font-size: 20px;
+    margin-bottom: 7%;
+}
+
+#encriptar{
+    position: static;
+    margin-left: 2.5%;
+    padding: auto;
+    width: 320px;
+    height: 60px;
+    left: 352px;
+    top: 0px;
+    border-radius: 16px;
+    border-color: red;
+    background: rgb(233, 69, 69);
+    color: white;    
+}
+
+#encriptar:hover{
+    background: white;
+    color: rgb(233, 69, 69);
+}
+
+#desencriptar{
+    position: static;
+    margin-left: 5%;
+    padding: auto;
+    width: 320px;
+    height: 60px;
+    left: 352px;
+    top: 0px;
+    border-radius: 16px;
+    border-color: red;
+    background: white;
+    color: rgb(233, 69, 69);
+}
+
+#desencriptar:hover{
+    background: rgb(233, 69, 69);
+    color: white; 
+}
+
+#copiar{
+    position: static;
+    margin-left: 13%;
+    margin-bottom: 5%;
+    padding: auto;
+    width: 320px;
+    height: 60px;
+    left: 352px;
+    top: 0px;
+    border-radius: 16px;
+    border-color: red;
+    background: white;
+    color: rgb(233, 69, 69);
+}
+
+#copiar:hover{
+    background: rgb(233, 69, 69);
+    color: white; 
+}
+
+.invisible{
+    display: none;
+}
+
+footer{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: rgb(173, 80, 80);
+    padding: 50px;
+    color: aliceblue;
+}
+
+
